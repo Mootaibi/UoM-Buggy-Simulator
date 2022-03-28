@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Level 1">
+      <UniqueIdentifier>{79bc5470-9b9e-414d-b455-e137baf64b43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Level 2">
+      <UniqueIdentifier>{0c09481c-6f57-4265-8709-5279dbf47daa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Level 1">
+      <UniqueIdentifier>{d40e9d61-622a-415d-8f85-0ba1fd3fb76b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Level 2">
+      <UniqueIdentifier>{08f4f73e-3311-4192-aee3-045606844e1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Level 3">
+      <UniqueIdentifier>{7db27788-a897-458a-8272-3f197dd6ab67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Level 3">
+      <UniqueIdentifier>{a6db7a08-ca05-454a-a6cd-7c284e55e4e8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="buggyMotor.h">
+      <Filter>Header Files\Level 1</Filter>
+    </ClInclude>
+    <ClInclude Include="buggyDSensor.h">
+      <Filter>Header Files\Level 1</Filter>
+    </ClInclude>
+    <ClInclude Include="buggyASensor.h">
+      <Filter>Header Files\Level 1</Filter>
+    </ClInclude>
+    <ClInclude Include="buggySpeed.h">
+      <Filter>Header Files\Level 2</Filter>
+    </ClInclude>
+    <ClInclude Include="buggyEncoder.h">
+      <Filter>Header Files\Level 1</Filter>
+    </ClInclude>
+    <ClInclude Include="buggyBLE.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="buggyDisplay.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="buggySensors.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="buggy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="buggyCurrent.h">
+      <Filter>Header Files\Level 1</Filter>
+    </ClInclude>
+    <ClInclude Include="buggyBattery.h">
+      <Filter>Header Files\Level 1</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="buggyASensor.cpp">
+      <Filter>Source Files\Level 1</Filter>
+    </ClCompile>
+    <ClCompile Include="buggyDSensor.cpp">
+      <Filter>Source Files\Level 1</Filter>
+    </ClCompile>
+    <ClCompile Include="buggyMotor.cpp">
+      <Filter>Source Files\Level 1</Filter>
+    </ClCompile>
+    <ClCompile Include="buggyEncoder.cpp">
+      <Filter>Source Files\Level 1</Filter>
+    </ClCompile>
+    <ClCompile Include="buggySpeed.cpp">
+      <Filter>Source Files\Level 2</Filter>
+    </ClCompile>
+    <ClCompile Include="buggyBattery.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="buggyBLE.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="buggyCurrent.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="buggyDisplay.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="buggySensors.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="buggy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
